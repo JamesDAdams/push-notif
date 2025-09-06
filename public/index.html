@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notifications Push Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 2rem; }
+      button { padding: .6rem 1rem; margin-right: .5rem; }
+      #status { margin-top: 1rem; color: #333; white-space: pre-line; }
+    </style>
+  </head>
+  <body>
+    <h1>Notifications Push</h1>
+    <p>Abonnez-vous et envoyez une notification de test.</p>
+
+    <div>
+      <button id="enable">Activer les notifications</button>
+      <button id="send" disabled>Envoyer une notification de test</button>
+      <button id="reset" disabled>Réinitialiser l’abonnement</button>
+    </div>
+
+    <div id="status"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
